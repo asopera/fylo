@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    
+    
+}
+
+body {
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    font-family: 'League Spartan';
+}
+
+.flex-container{
+   display:flex; 
+   background-color: brown;
+   justify-content:flex-end;
+}
+.flex-container > div{
+    margin:10px;
+    font-size: 30px;
+    padding: 20px;
+    flex-direction:column; 
+}
+.log{
+    display: inline-block;
+    position: relative;
+    top:30px ;
+    left:50px ;
+}
